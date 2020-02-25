@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="FactionWars">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../FactionWars/target/FactionWars.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
