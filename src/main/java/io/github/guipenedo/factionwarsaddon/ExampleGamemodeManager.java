@@ -28,6 +28,7 @@ public class ExampleGamemodeManager implements GamemodeManager {
 
     public ExampleGamemodeManager(WarMap map, ConfigurationSection gameSettings) {
         this.map = map.getId();
+        //these values come from maps.yml
         this.lives = gameSettings.getInt("gamemode-settings.lives", lives);
         this.most_lives_wins = gameSettings.getBoolean("gamemode-settings.most-lives-wins", most_lives_wins);
     }
